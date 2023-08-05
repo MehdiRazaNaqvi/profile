@@ -64,13 +64,14 @@ const Blog = ({ posts }) => {
     showBlog.current && (
       <>
         {data.showCursor && <Cursor />}
+
         <Head>
           <title>Blog</title>
         </Head>
+
         <div
-          className={`container mx-auto mb-10 ${
-            data.showCursor && "cursor-none"
-          }`}
+          className={`container mx-auto mb-10 ${data.showCursor && "cursor-none"
+            }`}
         >
           <Header isBlog={true}></Header>
           <div className="mt-10">
@@ -98,7 +99,7 @@ const Blog = ({ posts }) => {
                     <span className="text-sm mt-5 opacity-25">
                       {ISOToDate(post.date)}
                     </span>
-                    {process.env.NODE_ENV === "development" && mounted && (
+                    {/* {process.env.NODE_ENV === "development" && mounted && (
                       <div className="absolute top-0 right-0">
                         <Button
                           onClick={(e) => {
@@ -110,19 +111,19 @@ const Blog = ({ posts }) => {
                           Delete
                         </Button>
                       </div>
-                    )}
+                    )} */}
                   </div>
                 ))}
             </div>
           </div>
         </div>
-        {process.env.NODE_ENV === "development" && mounted && (
+        {/* {process.env.NODE_ENV === "development" && mounted && (
           <div className="fixed bottom-6 right-6">
             <Button onClick={createBlog} type={"primary"}>
               Add New Post +{" "}
             </Button>
           </div>
-        )}
+        )} */}
       </>
     )
   );

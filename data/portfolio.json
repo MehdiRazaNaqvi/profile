@@ -1,5 +1,5 @@
 {
-    "name": "Syed Mehdi R",
+    "name": "Syed Mehdi R.",
     "headerTaglineOne": "Hello 👋",
     "headerTaglineTwo": "I'm Syed Mehdi - curious",
     "headerTaglineThree": "devloper and debugger",
@@ -12,71 +12,66 @@
         {
             "id": "1",
             "title": "Github",
-            "link": "https://github.com/chetanverma16"
+            "link": "https://github.com/MehdiRazaNaqvi"
         },
         {
             "id": "2",
             "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/chetanverma7/"
+            "link": "https://www.linkedin.com/in/syed-mehdi-raza-naqvi-3355601b1/"
         },
         {
             "id": "3",
             "title": "Twitter",
-            "link": "https://twitter.com/realchetanverma"
-        },
-        {
-            "id": "4",
-            "title": "Blog",
-            "link": "https://blog.chetanverma.com/"
+            "link": "https://twitter.com/Mehdi_WebDev"
         },
         {
             "id": "5",
             "title": "Email",
-            "link": "mailto:hello@chetanverma.com"
+            "link": "mailto:mehdiraza1232016@gmail.com"
         }
     ],
     "projects": [
         {
             "id": "1",
-            "title": "Project One Test",
-            "description": "Web Design",
-            "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
-        },
-        {
-            "id": "2",
-            "title": "Project Two",
+            "title": "Business Dashboard",
             "description": "Web Development",
-            "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
-        },
-        {
-            "id": "3",
-            "title": "Project Three",
-            "description": "Design",
-            "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
-        },
-        {
-            "id": "4",
-            "title": "Project Four",
-            "description": "Marketing",
-            "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
-        },
-        {
-            "id": "5",
-            "title": "Project Five",
-            "description": "Development",
-            "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "imageSrc": "/dashboard.png",
+            "url": "https://mehdirazanaqvi.github.io/akal/"
         },
         {
             "id": "6",
-            "title": "Project Six",
-            "description": "Design & Development",
-            "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-            "url": "http://chetanverma.com/"
+            "title": "Car Booking App",
+            "description": "Web Development",
+            "imageSrc": "/car.png",
+            "url": "https://tailwind-practice-website.vercel.app/"
+        },
+        {
+            "id": "2",
+            "title": "OpenAi Chatbot",
+            "description": "Web Development",
+            "imageSrc": "/chat.png",
+            "url": "https://mehdirazanaqvi.github.io/OpenAi_chat/"
+        },
+        {
+            "id": "3",
+            "title": "Product Website",
+            "description": "Design to Code",
+            "imageSrc": "/foresome.png",
+            "url": "https://mehdirazanaqvi.github.io/foresome"
+        },
+        {
+            "id": "4",
+            "title": "Product Website",
+            "description": "Design to Code",
+            "imageSrc": "/dashboard2.png",
+            "url": "https://mehdirazanaqvi.github.io/vault/"
+        },
+        {
+            "id": "5",
+            "title": "Resume Maker for Visually impaired",
+            "description": "Web Development",
+            "imageSrc": "/web.png",
+            "url": "https://mehdirazanaqvi.github.io/web/"
         }
     ],
     "services": [
@@ -111,7 +106,7 @@
             "description": "We specialize in creating and optimizing mobile applications, ensuring your business benefits from sleek and efficient solutions that drive sales and growth"
         }
     ],
-    "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "aboutpara": "I graduated from UBIT (University of Karachi) in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as a Trainee Software Engineer at Tixsee Labs, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
     "resume": {
         "tagline": "👋  I'm a software engineer, product designer.",
         "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",

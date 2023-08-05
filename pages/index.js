@@ -10,7 +10,6 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -51,18 +50,29 @@ export default function Home() {
   return (
     <div className={`overflow-hidden relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
+
       <Head>
         <title>{data.name} | Profile</title>
+
+
+        <meta property="og:title" content="Syed Mehdi R. | Profile" />
+        <meta property="og:description" content="Top MERN Stack Developer" />
+        {/* <meta property="og:image" content="/me.png" /> */}
+        <meta property="og:url" content="https://profile-indol-rho-77.vercel.app/" />
+        <meta property="og:type" content="product" />
+
       </Head>
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
 
       <div className="container mx-auto mb-10">
+
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
+
         <div className="laptop:mt-20 mt-10 p-2">
           <div className="mt-5">
             <h1
@@ -71,6 +81,7 @@ export default function Home() {
             >
               {data.headerTaglineOne}
             </h1>
+
             <h1
               ref={textTwo}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
@@ -90,13 +101,20 @@ export default function Home() {
               {data.headerTaglineFour}
             </h1>
           </div>
-
+          <div className="shapes-container">
+            <div className="circle"></div>
+            <div className="sphere"></div>
+            <div className="semi-sphere"></div>
+          </div>
           <Socials className="mt-2 laptop:mt-5" />
         </div>
+
+
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -128,7 +146,9 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
+
         <Footer />
+
       </div>
     </div>
   );
