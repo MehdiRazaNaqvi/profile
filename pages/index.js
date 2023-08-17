@@ -1,8 +1,12 @@
+"use client";
+
 import { useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import HistoryCard from "../components/HistoryCard";
+import ReviewCard from "../components/ReviewCard";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
@@ -12,6 +16,7 @@ import Link from "next/link";
 import Cursor from "../components/Cursor";
 // Local Data
 import data from "../data/portfolio.json";
+import ReviewCarousel from "../components/swiper";
 
 export default function Home() {
   // Ref
@@ -66,6 +71,8 @@ export default function Home() {
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
 
+
+
       <div className="container mx-auto mb-10">
 
         <Header
@@ -101,11 +108,8 @@ export default function Home() {
               {data.headerTaglineFour}
             </h1>
           </div>
-          <div className="shapes-container">
-            <div className="circle"></div>
-            <div className="sphere"></div>
-            <div className="semi-sphere"></div>
-          </div>
+
+
           <Socials className="mt-2 laptop:mt-5" />
         </div>
 
@@ -147,9 +151,33 @@ export default function Home() {
           </p>
         </div>
 
+
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0">
+          <h1 className="tablet:m-10 text-2xl text-bold">Employment History.</h1>
+
+          <HistoryCard />
+
+        </div>
+
+
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0">
+          <h1 className="tablet:m-10 text-2xl text-bold">Client Testimonials.</h1>
+          <div className="mt-5 tablet:m-10">
+
+
+            <ReviewCarousel />
+
+          </div>
+        </div>
+
+
+
         <Footer />
 
       </div>
+
+
+
     </div>
   );
 }
