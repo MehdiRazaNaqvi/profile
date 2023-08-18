@@ -42,6 +42,18 @@ export default function Home() {
     });
   };
 
+
+
+  const handleReviewScroll = () => {
+    window.scrollTo({
+      top: ReviewRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+
+
   useIsomorphicLayoutEffect(() => {
     stagger(
       [textOne.current, textTwo.current, textThree.current, textFour.current],
@@ -76,6 +88,7 @@ export default function Home() {
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
+          handleReviewsScroll={handleReviewScroll}
         />
 
         <div className="laptop:mt-20 mt-10 p-2">
@@ -160,7 +173,7 @@ export default function Home() {
         </div>
 
 
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0">
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={ReviewRef}>
 
           <h1 className="tablet:m-10 text-2xl text-bold">Client Testimonials.</h1>
           <div className="mt-5 tablet:m-10">
