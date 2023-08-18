@@ -24,13 +24,27 @@ const Resume = () => {
   }, []);
   return (
     <>
-      {process.env.NODE_ENV === "development" && (
+
+
+
+      <Head>
+        
+        <title>Syed Mehdi R. | Resume</title>
+        <meta property="og:title" content="Syed Mehdi R. | Profile" />
+        <meta property="og:description" content="Top MERN Stack Developer" />
+        {/* <meta property="og:image" content="/me.png" /> */}
+        <meta property="og:url" content="https://profile-indol-rho-77.vercel.app/" />
+        <meta property="og:type" content="product" />
+
+      </Head>
+
+      {/* {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
           <Button onClick={() => router.push("/edit")} type={"primary"}>
             Edit Resume
           </Button>
         </div>
-      )}
+      )} */}
       {data.showCursor && <Cursor />}
       <div
         className={`container mx-auto mb-10 ${data.showCursor && "cursor-none"
