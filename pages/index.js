@@ -20,6 +20,7 @@ export default function Home() {
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
+  const ReviewRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
   const textThree = useRef();
