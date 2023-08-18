@@ -31,22 +31,22 @@ const ReviewCarousel = () => {
         <Carousel
 
             slidesPerView={1}
-            breakpoints={{
-                768: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1,
-                    spaceBetween: 60
-                },
-                1000: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1,
-                    spaceBetween: 60
-                }
-            }}
+            // breakpoints={{
+                // 768: {
+                //     slidesPerView: 1,
+                //     slidesPerGroup: 1,
+                //     spaceBetween: 60
+                // },
+                // 1000: {
+                //     slidesPerView: 1,
+                //     slidesPerGroup: 1,
+                //     spaceBetween: 60
+                // }
+            // }}
 
         >
             {reviews.map(review => (
-                <SwiperSlide style={{ width:"100%"}} key={review.key}>
+                <SwiperSlide style={{ width: "100%" }} key={review.key}>
 
                     <ReviewCard image={review.url} country={review.country} service={review.service} href={review.href} code={review.code} title={review.title} color={review.color} heading={review.heading} />
 
