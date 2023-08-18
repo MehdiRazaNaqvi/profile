@@ -32,7 +32,7 @@ const Resume = () => {
         <title>Syed Mehdi R. | Resume</title>
         <meta property="og:title" content="Syed Mehdi R. | Profile" />
         <meta property="og:description" content="Top MERN Stack Developer" />
-        {/* <meta property="og:image" content="/me.png" /> */}
+        <meta property="og:image" content="/me.png" />
         <meta property="og:url" content="https://profile-indol-rho-77.vercel.app/" />
         <meta property="og:type" content="product" />
 

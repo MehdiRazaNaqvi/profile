@@ -11,8 +11,6 @@ import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import Button from "../components/Button";
-import Link from "next/link";
 import Cursor from "../components/Cursor";
 // Local Data
 import data from "../data/portfolio.json";
@@ -62,7 +60,7 @@ export default function Home() {
 
         <meta property="og:title" content="Syed Mehdi R. | Profile" />
         <meta property="og:description" content="Top MERN Stack Developer" />
-        {/* <meta property="og:image" content="/me.png" /> */}
+        <meta property="og:image" content="/me.png" />
         <meta property="og:url" content="https://profile-indol-rho-77.vercel.app/" />
         <meta property="og:type" content="product" />
 
