@@ -77,58 +77,61 @@ body {
 
 
 
+/* KHUD SE */
+
 
 .carousel {
   position: relative;
+}
 
-  .swiper-button-disabled {
-    visibility: hidden;
-  }
+.carousel .swiper-button-disabled {
+  visibility: hidden;
+}
 
-  .swiper-button-prev,
-  .swiper-button-next {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    transform: translateY(-50%);
+.carousel .swiper-button-prev,
+.carousel .swiper-button-next {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-    svg {
-      width: 100%;
-      height: 100%;
-    }
-  }
+.carousel .swiper-button-prev {
+  left: -40px;
+}
 
-  .swiper-button-prev {
-    left: -40px;
-  }
+.carousel .swiper-button-next {
+  right: -40px;
+}
 
-  .swiper-button-next {
-    right: -40px;
-  }
+.carousel .swiper-button-prev svg,
+.carousel .swiper-button-next svg {
+  width: 100%;
+  height: 100%;
+}
 
-  .swiper-slide {
-    display: flex;
-    height: auto;
+.carousel .swiper-slide {
+  display: flex;
+  height: auto;
+}
 
-    .card {
-      flex-grow: 1;
-    }
-  }
+.carousel .swiper-slide .card {
+  flex-grow: 1;
+}
 
-  .swiper-pagination-bullet-active {}
+.carousel .swiper-pagination-bullet-active {
+  /* Add your styles here */
+}
 
-  &.carousel--arrow {
-    .swiper {
-      margin: 0 40px;
-    }
+.carousel.carousel--arrow .swiper {
+  margin: 0 40px;
+}
 
-    .swiper-button-prev {
-      left: 0;
-    }
+.carousel.carousel--arrow .swiper-button-prev {
+  left: 0;
+}
 
-    .swiper-button-next {
-      right: 0;
-    }
-  }
+.carousel.carousel--arrow .swiper-button-next {
+  right: 0;
 }

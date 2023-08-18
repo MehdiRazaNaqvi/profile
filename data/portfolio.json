@@ -5,7 +5,7 @@
     "headerTaglineThree": "devloper and debugger",
     "headerTaglineFour": "",
     "showCursor": false,
-    "showBlog": true,
+    "showBlog": false,
     "darkMode": true,
     "showResume": true,
     "socials": [
@@ -78,75 +78,75 @@
         {
             "id": "1",
             "title": "Design to Code",
-            "description": "We help with the creation and development of online presence of your business, with particular focus on User Experience"
+            "description": "Bringing Designs to Life: Transforming Your Vision into Functional Code. We help with the development of online presence of your business, with particular focus on User Experience"
         },
         {
             "id": "2",
             "title": "Web Development",
-            "description": "We build and optimize your online presence. Website is the digital entry point into your business and a powerful revenue channel."
+            "description": "Empowering your online presence with cutting-edge web development, we merge state-of-the-art technologies and scalable solutions for a remarkable user experience."
         },
         {
             "id": "3",
             "title": "Backend Development",
-            "description": "We build and optimize your server to provide your website a powerful revenue channel."
+            "description": "Crafting Powerful Backend Solutions for Seamless Digital Experiences. We build and optimize your server to provide your website a powerful revenue channel."
         },
         {
             "id": "4",
             "title": "Bugs Fixing",
-            "description": "We optimize your web app and add features that bring your project to life."
+            "description": "Seamlessly Resolving Glitches: Expert Bug Fixing for Next.js, React.js, Strapi, and Node.js. We optimize your web app and add features that bring your project to life."
         },
         {
-            "id": "3",
+            "id": "5",
             "title": "Business Dashboard",
-            "description": "We craft and optimize powerful dashboards to elevate your sales strategy and maximize revenue channels"
+            "description": "Streamline operations and drive informed decisions with our intuitive and user-friendly business dashboard solutions. We craft and optimize powerful dashboards to elevate your sales strategy"
         },
         {
-            "id": "4",
-            "title": "Mobile Development",
-            "description": "We specialize in creating and optimizing mobile applications, ensuring your business benefits from sleek and efficient solutions that drive sales and growth"
+            "id": "6",
+            "title": "Dark Mode Expertise",
+            "description": "In the age of user-centric design, Our expertise in Dark Mode ensures a smooth transition from light to dark, enhancing readability and reducing eye strain."
         }
     ],
-    "aboutpara": "I graduated from UBIT (University of Karachi) in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as a Trainee Software Engineer at Tixsee Labs, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
+    "aboutpara": "I graduated from University of Karachi - UBIT in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as a Trainee Software Engineer at Tixsee Labs, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
     "resume": {
-        "tagline": "👋  I'm a software engineer, product designer.",
-        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "tagline": "👋  I'm a software engineer, product designer",
+        "description": "I have delivered world-class user experiences to of people. Well-versed with React, Javascript, and most of the Web frameworks.",
         "experiences": [
             {
                 "id": "1",
-                "dates": "March 2022 - Present",
+                "dates": "Feb 2023 - Present",
                 "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Bullet One, Bullet Two"
+                "position": "Trainee Software Engineer at Tixsee Labs",
+                "bullets": "Nextjs, Strapi"
             },
             {
                 "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-                "dates": "July 2020 - March 2022",
+                "dates": "Oct 2022 - Nov 2022",
                 "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+                "position": "Juinor MERN Stack Developer at Techsyhub",
+                "bullets": "Worked on the frontend and backend of e-commerce Applications, Integrated Backend Api's in Admin Panels"
             }
         ],
         "education": {
-            "universityName": "University X",
-            "universityDate": "2016-2020",
+            "universityName": "University of Karachi - UBIT",
+            "universityDate": "2019-2022",
             "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
         },
         "languages": [
             "Javascript",
+            "Typescript",
             "HTML5",
-            "CSS",
-            "Python",
-            "Go"
+            "CSS"
         ],
         "frameworks": [
-            "React",
-            "Typescript",
+            "ReactJs",
+            "NextJs",
+            "Strapi",
             "NodeJs"
         ],
         "others": [
-            "Figma",
+            "Firebase",
             "AdobeXD",
-            "AWS"
+            "AWS EC2"
         ]
     }
 }
