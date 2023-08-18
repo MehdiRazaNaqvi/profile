@@ -1,4 +1,4 @@
-
+import "../../styles/globals.css"
 import { useState, useEffect } from 'react';
 import { Typography, CardHeader, Card, CardContent, CardActions, Chip, Avatar, IconButton } from '@mui/material';
 import { red } from '@mui/material/colors';
