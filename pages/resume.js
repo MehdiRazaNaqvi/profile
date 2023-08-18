@@ -10,6 +10,7 @@ import { useTheme } from "next-themes";
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
+import Head from "next/head";
 
 const Resume = () => {
   const router = useRouter();
@@ -68,7 +69,7 @@ const Resume = () => {
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>
 
-                {resume.experiences.map(
+                {resume?.experiences?.map(
                   ({ id, dates, type, position, bullets }) => (
                     <ProjectResume
                       key={id}
@@ -99,7 +100,7 @@ const Resume = () => {
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Languages</h2>
                       <ul className="list-disc">
-                        {resume.languages.map((language, index) => (
+                        {resume?.languages?.map((language, index) => (
                           <li key={index} className="ml-5 py-2">
                             {language}
                           </li>
@@ -112,7 +113,7 @@ const Resume = () => {
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Frameworks</h2>
                       <ul className="list-disc">
-                        {resume.frameworks.map((framework, index) => (
+                        {resume?.frameworks?.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">
                             {framework}
                           </li>
@@ -125,7 +126,7 @@ const Resume = () => {
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Others</h2>
                       <ul className="list-disc">
-                        {resume.others.map((other, index) => (
+                        {resume?.others?.map((other, index) => (
                           <li key={index} className="ml-5 py-2">
                             {other}
                           </li>
