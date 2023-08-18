@@ -8,13 +8,14 @@ import MobileFriendlyIcon from '@mui/icons-material/MobileFriendly';
 import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
 import NightsStayIcon from '@mui/icons-material/NightsStay';
 
+
 const ServiceCard = ({ name, description, id }) => {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState();
 
 
 
-  const Iconsize = "3.5rem"
+  const Iconsize = "3rem"
 
 
   useEffect(() => {
@@ -31,15 +32,15 @@ const ServiceCard = ({ name, description, id }) => {
 
 
         {
-          id == 1 ? <DesignServicesIcon sx={{ marginRight: "1rem", fontSize: Iconsize }} />
-            : id == 2 ? <CodeIcon sx={{ marginRight: "1rem", fontSize: Iconsize }} />
-              : id == 3 ? <StorageIcon sx={{ marginRight: "1rem", fontSize: Iconsize }} />
-                : id == 4 ? <ConstructionIcon sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+          id == 1 ? <DesignServicesIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+            : id == 2 ? <CodeIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+              : id == 3 ? <StorageIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+                : id == 4 ? <ConstructionIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
 
-                  : id == 5 ? <SpaceDashboardIcon sx={{ marginRight: "1rem", fontSize: Iconsize }} />
-                    : id == 6 ? <NightsStayIcon sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+                  : id == 5 ? <SpaceDashboardIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+                    : id == 6 ? <NightsStayIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
                       :
-                      <CodeIcon sx={{ marginRight: "1rem", Iconsize }} />
+                      <CodeIcon className="only_desktop" sx={{ marginRight: "1rem", Iconsize }} />
 
 
 

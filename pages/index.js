@@ -145,8 +145,8 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+          <h1 className="tablet:m-10 m-10 text-2xl text-bold">Services.</h1>
+          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-12">
             {data.services.map((service, index) => (
               <ServiceCard
                 id={service.id}

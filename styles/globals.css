@@ -135,3 +135,17 @@ body {
 .carousel.carousel--arrow .swiper-button-next {
   right: 0;
 }
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .only_desktop {
+    display: none;
+  }
+  
+
+}
+
+
+

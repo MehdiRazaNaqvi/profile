@@ -9,7 +9,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
   return (
     <div
 
-      className={`overflow-hidden rounded-lg p-0 laptop:p-4 first:ml-0 link w-full ${theme === "dark" ? "border border-gray-800 border-opacity-50" : "border border-gray-300"}`}
+      className={`overflow-hidden rounded-lg p-4 laptop:p-4 first:ml-0 link w-full ${theme === "dark" ? "border border-gray-800 border-opacity-50" : "border border-gray-300"}`}
       onClick={onClick}
     >
       <div

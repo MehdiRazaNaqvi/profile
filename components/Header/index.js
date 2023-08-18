@@ -69,6 +69,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleReviewsScroll, isBl
                 <div className="grid grid-cols-1">
                   <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={handleReviewsScroll}>Testimonials</Button>
+
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
@@ -130,7 +132,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleReviewsScroll, isBl
           <div className="flex">
             <Button onClick={handleWorkScroll}>Work</Button>
             <Button onClick={handleAboutScroll}>About</Button>
-            <Button onClick={handleReviewsScroll}>Reviews</Button>
+            <Button onClick={handleReviewsScroll}>Testimonials</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}

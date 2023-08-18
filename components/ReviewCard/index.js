@@ -1,12 +1,7 @@
 
 import { useState, useEffect } from 'react';
-import { styled } from '@mui/material/styles';
-import { Typography, Box, CardHeader, Card, CardContent, CardActions, Collapse, Chip, Avatar, IconButton } from '@mui/material';
+import { Typography, CardHeader, Card, CardContent, CardActions, Chip, Avatar, IconButton } from '@mui/material';
 import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Image from 'next/image';
 import Rating from "../Rating"
 import { useTheme } from "next-themes";
@@ -17,10 +12,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 
 
-export default function ReviewCard({ image, title, heading, country, code, href, service }) {
-
-
-
+export default function ReviewCard({ title, heading, country, code, href, service }) {
 
     const { theme } = useTheme();
     const [mounted, setMounted] = useState();
@@ -28,6 +20,9 @@ export default function ReviewCard({ image, title, heading, country, code, href,
     useEffect(() => {
         setMounted(true);
     }, []);
+
+
+
 
 
     function stringToColor(string) {
@@ -67,7 +62,7 @@ export default function ReviewCard({ image, title, heading, country, code, href,
     return (
 
 
-        <Card className={`${mounted && theme === "light" && "bg-gray-100"} hover:scale-95 transition-transform w-full p-2 mob:p-4 rounded-lg transition-all ease-out duration-300}`} sx={{ backgroundColor: mounted && theme === "dark" && "#1F1B24", maxWidth: "100%", width: "600px" }}>
+        <Card className={`${mounted && theme === "light" && "bg-gray-100"} hover:scale-95 transition-transform w-full p-2 mob:p-4 rounded-lg transition-all ease-out duration-300}`} sx={{ backgroundColor: mounted && (theme === "dark" || theme === "system") && "#1F1B24", maxWidth: "100%", width: "100%" }}>
             <CardHeader
                 avatar={
                     <Avatar {...stringAvatar(heading)} sx={{ bgcolor: red[500] }} aria-label="recipe"></Avatar>
@@ -78,19 +73,17 @@ export default function ReviewCard({ image, title, heading, country, code, href,
                     </IconButton>
                 }
                 title={heading}
-                // subheader="Cofounder Statsmetrics"
-                // subheader="Software Engineer at BT"
                 subheader={heading == "Akala Moyo" ? country + " | Co-founder Statsmetrics" : country}
 
 
 
                 titleTypographyProps={{
                     variant: 'h6',
-                    color: mounted && theme == "dark" && "white"
+                    color: mounted && (theme === "dark" || theme === "system") && "white"
 
                 }}
                 subheaderTypographyProps={{
-                    color: mounted && theme == "dark" && "white"
+                    color: mounted && (theme === "dark" || theme === "system") && "white"
 
                 }}
             />
@@ -100,7 +93,7 @@ export default function ReviewCard({ image, title, heading, country, code, href,
                 minHeight: "270px",
             }}>
 
-                <FormatQuoteIcon className='m-0 mb-2 p-0 ' sx={{ fontSize: "4rem", color: mounted && theme == "dark" ? "white" : "text.primary", transform: "rotate(180deg)" }} />
+                <FormatQuoteIcon className='m-0 mb-2 p-0 ' sx={{ fontSize: "4rem", color: mounted && (theme === "dark" || theme === "system") ? "white" : "text.primary", transform: "rotate(180deg)" }} />
 
 
 
@@ -109,7 +102,7 @@ export default function ReviewCard({ image, title, heading, country, code, href,
                     className='opacity-70 text-xl'
                     sx={{
                         justifySelf: "center",
-                        color: mounted && theme == "dark" ? "white" : 'text.primary',
+                        color: mounted && (theme === "dark" || theme === "system") ? "white" : 'text.primary',
                         display: '-webkit-box',
                         WebkitBoxOrient: 'vertical',
                         overflow: 'hidden',
@@ -133,12 +126,12 @@ export default function ReviewCard({ image, title, heading, country, code, href,
 
 
 
-                <IconButton className='mr-4' href={href} target='_blank' aria-label="add to favorites">
-                    <ArrowOutwardIcon fontSize='large' sx={{ color: mounted && theme == "dark" && "white" }} />
+                <IconButton className='mr-4 only_desktop' href={href} target='_blank' aria-label="add to favorites">
+                    <ArrowOutwardIcon fontSize='large' sx={{ color: mounted && (theme === "dark" || theme === "system") && "white" }} />
                 </IconButton>
 
 
-                <Chip onClick={() => { }} label={service} variant="outlined" sx={{ color: mounted && theme == "dark" && "white" }} />
+                <Chip className='only_desktop' onClick={() => { }} label={service} variant="outlined" sx={{ color: mounted && (theme === "dark" || theme === "system") && "white" }} />
 
 
                 <Rating rating={5} />

@@ -25,9 +25,18 @@
             "link": "https://twitter.com/Mehdi_WebDev"
         },
         {
-            "id": "5",
+            "id": "4",
             "title": "Email",
             "link": "mailto:mehdiraza1232016@gmail.com"
+        },
+        {
+            "id": "5",
+            "title": "Fiverr",
+            "link": "https://www.fiverr.com/mehdiraza2000"
+        }, {
+            "id": "6",
+            "title": "Upwork",
+            "link": "https://www.upwork.com/freelancers/~01072941cd9e1b8638"
         }
     ],
     "projects": [
