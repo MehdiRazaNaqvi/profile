@@ -30,6 +30,8 @@ export default function CustomizedTimeline() {
 
         </TimelineSeparator>
 
+
+
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
             Techsyhub
@@ -47,13 +49,13 @@ export default function CustomizedTimeline() {
 
         <TimelineSeparator>
 
-        <TimelineConnector />
-        <TimelineDot color='secondary' sx={{justifySelf:"center", alignSelf:"center", mt:"0px"}}></TimelineDot>
+          <TimelineConnector />
+          <TimelineDot color='secondary' sx={{ justifySelf: "center", alignSelf: "center", mt: "0px" }}></TimelineDot>
 
           <TimelineDot color="secondary">
             <LaptopMacIcon />
           </TimelineDot>
-          
+
         </TimelineSeparator>
 
         <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -61,10 +63,40 @@ export default function CustomizedTimeline() {
             Tixsee Labs
           </Typography>
           <Typography>Trainee Software Engineer</Typography>
-          <Typography>Feb 2023 - Present</Typography>
+          <Typography>Feb 2023 - Oct 2023</Typography>
 
         </TimelineContent>
       </TimelineItem>
+
+
+      <TimelineItem>
+
+
+        <TimelineSeparator>
+
+
+          <TimelineDot color='secondary' sx={{ justifySelf: "center", alignSelf: "center", mt: "0px", mb:"0px" }}></TimelineDot>
+
+          <TimelineConnector sx={{ height: "12rem" }} />
+          <TimelineDot color='primary' sx={{ justifySelf: "center", alignSelf: "center", mt: "0px" }}></TimelineDot>
+
+          <TimelineDot color="primary">
+            <LaptopMacIcon />
+          </TimelineDot>
+
+        </TimelineSeparator>
+
+        <TimelineContent sx={{ py: '12px', px: 2, mt:25 }}>
+          <Typography variant="h6" component="span">
+            CodeVative
+          </Typography>
+          <Typography>Software Engineer</Typography>
+          <Typography>Oct 2023 - Present</Typography>
+
+        </TimelineContent>
+      </TimelineItem>
+
+
 
 
     </Timeline >
