@@ -1,161 +1,150 @@
 {
-    "name": "Syed Mehdi R.",
-    "headerTaglineOne": "Hello 👋",
-    "headerTaglineTwo": "I'm Syed Mehdi - curious",
-    "headerTaglineThree": "devloper and debugger",
-    "headerTaglineFour": "",
-    "showCursor": false,
-    "showBlog": false,
-    "darkMode": true,
-    "showResume": true,
-    "socials": [
-        {
-            "id": "1",
-            "title": "Github",
-            "link": "https://github.com/MehdiRazaNaqvi"
-        },
-        {
-            "id": "2",
-            "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/syed-mehdi-raza-naqvi-3355601b1/"
-        },
-        {
-            "id": "3",
-            "title": "Twitter",
-            "link": "https://twitter.com/Mehdi_WebDev"
-        },
-        {
-            "id": "4",
-            "title": "Email",
-            "link": "mailto:mehdiraza1232016@gmail.com"
-        },
-        {
-            "id": "5",
-            "title": "Fiverr",
-            "link": "https://www.fiverr.com/mehdiraza2000"
-        },
-        {
-            "id": "6",
-            "title": "Upwork",
-            "link": "https://www.upwork.com/freelancers/~01072941cd9e1b8638"
-        }
-    ],
-    "projects": [
-        {
-            "id": "1",
-            "title": "Business Dashboard",
-            "description": "Web Development",
-            "imageSrc": "/dashboard.png",
-            "url": "https://mehdirazanaqvi.github.io/akal/"
-        },
-        {
-            "id": "6",
-            "title": "Car Booking App",
-            "description": "Web Development",
-            "imageSrc": "/car.png",
-            "url": "https://tailwind-practice-website.vercel.app/"
-        },
-        {
-            "id": "2",
-            "title": "OpenAi Chatbot",
-            "description": "Web Development",
-            "imageSrc": "/chat.png",
-            "url": "https://mehdirazanaqvi.github.io/OpenAi_chat/"
-        },
-        {
-            "id": "3",
-            "title": "Product Website",
-            "description": "Design to Code",
-            "imageSrc": "/foresome.png",
-            "url": "https://mehdirazanaqvi.github.io/foresome"
-        },
-        {
-            "id": "4",
-            "title": "Product Website",
-            "description": "Design to Code",
-            "imageSrc": "/dashboard2.png",
-            "url": "https://mehdirazanaqvi.github.io/vault/"
-        },
-        {
-            "id": "5",
-            "title": "Resume Maker for Visually impaired",
-            "description": "Web Development",
-            "imageSrc": "/web.png",
-            "url": "https://mehdirazanaqvi.github.io/web/"
-        }
-    ],
-    "services": [
-        {
-            "id": "1",
-            "title": "Design to Code",
-            "description": "Bringing Designs to Life: Transforming Your Vision into Functional Code. We help with the development of online presence of your business, with particular focus on User Experience"
-        },
-        {
-            "id": "2",
-            "title": "Web Development",
-            "description": "Empowering your online presence with cutting-edge web development, we merge state-of-the-art technologies and scalable solutions for a remarkable user experience."
-        },
-        {
-            "id": "3",
-            "title": "Backend Development",
-            "description": "Crafting Powerful Backend Solutions for Seamless Digital Experiences. We build and optimize your server to provide your website a powerful revenue channel."
-        },
-        {
-            "id": "4",
-            "title": "Bugs Fixing",
-            "description": "Seamlessly Resolving Glitches: Expert Bug Fixing for Next.js, React.js, Strapi, and Node.js. We optimize your web app and add features that bring your project to life."
-        },
-        {
-            "id": "5",
-            "title": "Business Dashboard",
-            "description": "Streamline operations and drive informed decisions with our intuitive and user-friendly business dashboard solutions. We craft and optimize powerful dashboards to elevate your sales strategy"
-        },
-        {
-            "id": "6",
-            "title": "Dark Mode Expertise",
-            "description": "In the age of user-centric design, Our expertise in Dark Mode ensures a smooth transition from light to dark, enhancing readability and reducing eye strain."
-        }
-    ],
-    "aboutpara": "I graduated from University of Karachi - UBIT in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as a Trainee Software Engineer at Tixsee Labs, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
-    "resume": {
-        "tagline": "👋  I'm a software engineer, product designer",
-        "description": "I have delivered world-class user experiences to of people. Well-versed with React, Javascript, and most of the Web frameworks.",
-        "experiences": [
-            {
-                "id": "1",
-                "dates": "Feb 2023 - Present",
-                "type": "Full Time",
-                "position": "Trainee Software Engineer at Tixsee Labs",
-                "bullets": "Nextjs, Strapi"
-            },
-            {
-                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-                "dates": "Oct 2022 - Nov 2022",
-                "type": "Full Time",
-                "position": "Juinor MERN Stack Developer at Techsyhub",
-                "bullets": "Worked on the frontend and backend of e-commerce Applications, Integrated Backend Api's in Admin Panels"
-            }
-        ],
-        "education": {
-            "universityName": "University of Karachi - UBIT",
-            "universityDate": "2019-2022",
-            "universityPara": "I earned my Bachelor's degree in Computer Science from the University of Karachi - UBIT in 2022. This comprehensive academic journey equipped me with a strong foundation in Software Development, fostering both a deep understanding of my field and the ability to approach challenges with analytical and innovative perspectives. My time at UBIT not only enriched my academic knowledge but also honed my teamwork, communication, and problem-solving skills, preparing me for a successful career in Development and Deployment."
-        },
-        "languages": [
-            "Javascript",
-            "Typescript",
-            "HTML5",
-            "CSS"
-        ],
-        "frameworks": [
-            "ReactJs",
-            "NextJs",
-            "Strapi",
-            "NodeJs"
-        ],
-        "others": [
-            "Firebase",
-            "AWS EC2"
-        ]
+  "name": "Syed Mehdi R.",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Syed Mehdi - curious",
+  "headerTaglineThree": "devloper and debugger",
+  "headerTaglineFour": "",
+  "showCursor": false,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/MehdiRazaNaqvi"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/syed-mehdi-raza-naqvi-3355601b1/"
+    },
+    {
+      "id": "3",
+      "title": "Twitter",
+      "link": "https://twitter.com/Mehdi_WebDev"
+    },
+    {
+      "id": "4",
+      "title": "Email",
+      "link": "mailto:mehdiraza1232016@gmail.com"
+    },
+    {
+      "id": "5",
+      "title": "Fiverr",
+      "link": "https://www.fiverr.com/mehdiraza2000"
+    },
+    {
+      "id": "6",
+      "title": "Upwork",
+      "link": "https://www.upwork.com/freelancers/~01072941cd9e1b8638"
     }
+  ],
+  "projects": [
+    {
+      "id": "0",
+      "title": "Books Library",
+      "description": "Web Development",
+      "imageSrc": "/books.png",
+      "url": "https://bookslibmehdi.netlify.app"
+    },
+
+    {
+      "id": "6",
+      "title": "Car Booking App",
+      "description": "Web Development",
+      "imageSrc": "/car.png",
+      "url": "https://tailwind-practice-website.vercel.app/"
+    },
+
+    {
+      "id": "1",
+      "title": "Business Dashboard",
+      "description": "Web Development",
+      "imageSrc": "/dashboard.png",
+      "url": "https://mehdirazanaqvi.github.io/akal/"
+    },
+    {
+      "id": "3",
+      "title": "Product Website",
+      "description": "Design to Code",
+      "imageSrc": "/foresome.png",
+      "url": "https://mehdirazanaqvi.github.io/foresome"
+    },
+    {
+      "id": "4",
+      "title": "EU Citizenship Platform (in dev)",
+      "description": "Web Development",
+      "imageSrc": "/ancesstryL.png",
+      "url": "https://staging.ancestrypass.com/"
+    },
+    {
+      "id": "5",
+      "title": "Resume Maker for Visually impaired",
+      "description": "Web Development",
+      "imageSrc": "/web.png",
+      "url": "https://mehdirazanaqvi.github.io/web/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Design to Code",
+      "description": "Bringing Designs to Life: Transforming Your Vision into Functional Code. We help with the development of online presence of your business, with particular focus on User Experience"
+    },
+    {
+      "id": "2",
+      "title": "Web Development",
+      "description": "Empowering your online presence with cutting-edge web development, we merge state-of-the-art technologies and scalable solutions for a remarkable user experience."
+    },
+    {
+      "id": "3",
+      "title": "Backend Development",
+      "description": "Crafting Powerful Backend Solutions for Seamless Digital Experiences. We build and optimize your server to provide your website a powerful revenue channel."
+    },
+    {
+      "id": "4",
+      "title": "Bugs Fixing",
+      "description": "Seamlessly Resolving Glitches: Expert Bug Fixing for Next.js, React.js, Strapi, and Node.js. We optimize your web app and add features that bring your project to life."
+    },
+    {
+      "id": "5",
+      "title": "Business Dashboard",
+      "description": "Streamline operations and drive informed decisions with our intuitive and user-friendly business dashboard solutions. We craft and optimize powerful dashboards to elevate your sales strategy"
+    },
+    {
+      "id": "6",
+      "title": "Dark Mode Expertise",
+      "description": "In the age of user-centric design, Our expertise in Dark Mode ensures a smooth transition from light to dark, enhancing readability and reducing eye strain."
+    }
+  ],
+  "aboutpara": "Graduated from University of Karachi - UBIT in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as a Associate Software Engineer at Codevative, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer",
+    "description": "I have delivered world-class user experiences to of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Feb 2023 - Present",
+        "type": "Full Time",
+        "position": "Trainee Software Engineer at Tixsee Labs",
+        "bullets": "Nextjs, Strapi"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "Oct 2022 - Nov 2022",
+        "type": "Full Time",
+        "position": "Juinor MERN Stack Developer at Techsyhub",
+        "bullets": "Worked on the frontend and backend of e-commerce Applications, Integrated Backend Api's in Admin Panels"
+      }
+    ],
+    "education": {
+      "universityName": "University of Karachi - UBIT",
+      "universityDate": "2019-2022",
+      "universityPara": "I earned my Bachelor's degree in Computer Science from the University of Karachi - UBIT in 2022. This comprehensive academic journey equipped me with a strong foundation in Software Development, fostering both a deep understanding of my field and the ability to approach challenges with analytical and innovative perspectives. My time at UBIT not only enriched my academic knowledge but also honed my teamwork, communication, and problem-solving skills, preparing me for a successful career in Development and Deployment."
+    },
+    "languages": ["Javascript", "Typescript", "HTML5", "CSS"],
+    "frameworks": ["ReactJs", "NextJs", "Strapi", "NodeJs"],
+    "others": ["Firebase", "AWS EC2"]
+  }
 }

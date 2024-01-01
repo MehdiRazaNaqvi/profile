@@ -90,7 +90,7 @@ export default function CustomizedTimeline() {
           <Typography variant="h6" component="span">
             CodeVative
           </Typography>
-          <Typography>Software Engineer</Typography>
+          <Typography>Associate Software Engineer</Typography>
           <Typography>Oct 2023 - Present</Typography>
 
         </TimelineContent>
