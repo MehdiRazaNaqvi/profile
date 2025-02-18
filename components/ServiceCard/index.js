@@ -4,10 +4,8 @@ import CodeIcon from '@mui/icons-material/Code';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import StorageIcon from '@mui/icons-material/Storage';
 import ConstructionIcon from '@mui/icons-material/Construction';
-import MobileFriendlyIcon from '@mui/icons-material/MobileFriendly';
 import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
-import NightsStayIcon from '@mui/icons-material/NightsStay';
-
+import DvrIcon from '@mui/icons-material/Dvr';
 
 const ServiceCard = ({ name, description, id }) => {
   const { theme } = useTheme();
@@ -38,7 +36,7 @@ const ServiceCard = ({ name, description, id }) => {
                 : id == 4 ? <ConstructionIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
 
                   : id == 5 ? <SpaceDashboardIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
-                    : id == 6 ? <NightsStayIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
+                    : id == 6 ? <DvrIcon className="only_desktop" sx={{ marginRight: "1rem", fontSize: Iconsize }} />
                       :
                       <CodeIcon className="only_desktop" sx={{ marginRight: "1rem", Iconsize }} />
 

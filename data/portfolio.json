@@ -7,7 +7,7 @@
   "showCursor": false,
   "showBlog": false,
   "darkMode": true,
-  "showResume": true,
+  "showResume": false,
   "socials": [
     {
       "id": "1",
@@ -41,24 +41,25 @@
     }
   ],
   "projects": [
+
     {
       "id": "0",
-      "title": "Books Library",
+      "title": "EU Citizenship Platform | AncesstryPass",
+      "description": "Web Development",
+      "imageSrc": "/ancesstryL.png",
+      "url": "https://staging.ancestrypass.com/"
+    },
+
+    {
+      "id": "1",
+      "title": "Books Library | Book Buddy",
       "description": "Web Development",
       "imageSrc": "/books.png",
       "url": "https://bookslibmehdi.netlify.app"
     },
 
     {
-      "id": "6",
-      "title": "Car Booking App",
-      "description": "Web Development",
-      "imageSrc": "/car.png",
-      "url": "https://tailwind-practice-website.vercel.app/"
-    },
-
-    {
-      "id": "1",
+      "id": "2",
       "title": "Business Dashboard",
       "description": "Web Development",
       "imageSrc": "/dashboard.png",
@@ -66,26 +67,31 @@
     },
     {
       "id": "3",
-      "title": "Product Website",
+      "title": "Product Website | Foresome",
       "description": "Design to Code",
       "imageSrc": "/foresome.png",
       "url": "https://mehdirazanaqvi.github.io/foresome"
-    },
-    {
-      "id": "4",
-      "title": "EU Citizenship Platform (in dev)",
-      "description": "Web Development",
-      "imageSrc": "/ancesstryL.png",
-      "url": "https://staging.ancestrypass.com/"
-    },
-    {
-      "id": "5",
-      "title": "Resume Maker for Visually impaired",
-      "description": "Web Development",
-      "imageSrc": "/web.png",
-      "url": "https://mehdirazanaqvi.github.io/web/"
     }
   ],
+
+  "govProjects": [
+    {
+      "id": "0",
+      "title": "Visit Oman",
+      "description": "Web and CMS Development",
+      "imageSrc": "/visitoman.png",
+      "url": "https://visitoman.om"
+    },
+    {
+      "id": "1",
+      "title": "Oman Investment Authority",
+      "description": "Web and CMS Development",
+      "imageSrc": "/oia.png",
+      "url": "https://oia.gov.om"
+    }
+  ],
+
+
   "services": [
     {
       "id": "1",
@@ -114,11 +120,11 @@
     },
     {
       "id": "6",
-      "title": "Dark Mode Expertise",
-      "description": "In the age of user-centric design, Our expertise in Dark Mode ensures a smooth transition from light to dark, enhancing readability and reducing eye strain."
+      "title": "CMS Development",
+      "description": "I craft dynamic, user-friendly CMS solutions for seamless content management and scalability."
     }
   ],
-  "aboutpara": "Graduated from University of Karachi - UBIT in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as a Associate Software Engineer at Codevative, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
+  "aboutpara": "Graduated from University of Karachi - UBIT in 2022 with a Bachelor's degree in Computer Science. Currently, I am working as Software Engineer at Codevative, where I'm honring my skills in full stack web development through hands-on practice. Alongside my professional commitments, I am also an active freelancer, leveraging my expertise to create impactful solutions. I have a keen interest in DevOps and Blockchain technologies, which further fuels my passion for innovation and growth",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer",
     "description": "I have delivered world-class user experiences to of people. Well-versed with React, Javascript, and most of the Web frameworks.",

@@ -84,6 +84,13 @@ body {
   position: relative;
 }
 
+
+.swiper-pagination{
+  /* background-color: red; */
+  /* top: 450px; */
+  /* margin-top: 30rem !important; */
+}
+
 .carousel .swiper-button-disabled {
   visibility: hidden;
 }

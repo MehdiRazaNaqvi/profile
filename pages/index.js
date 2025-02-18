@@ -144,6 +144,25 @@ export default function Home() {
           </div>
         </div>
 
+
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+          <h1 className="text-2xl text-bold">Government Projects.</h1>
+
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-2 gap-4">
+            {data.govProjects.map((project) => (
+              <WorkCard
+                key={project.id}
+                img={project.imageSrc}
+                name={project.title}
+                description={project.description}
+                onClick={() => window.open(project.url)}
+              />
+            ))}
+          </div>
+        </div>
+
+
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 m-10 text-2xl text-bold">Services.</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-12">
@@ -175,13 +194,9 @@ export default function Home() {
 
 
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={ReviewRef}>
-
           <h1 className="tablet:m-10 text-2xl text-bold">Client Testimonials.</h1>
           <div className="mt-5 tablet:m-10">
-
-
             <ReviewCarousel />
-
           </div>
         </div>
 

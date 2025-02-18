@@ -11,7 +11,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 
 
-export default function ReviewCard({ title, heading, country, code, href, service }) {
+export default function ReviewCard({ title, heading, country, code, href, service, designation }) {
 
     const { theme } = useTheme();
     const [mounted, setMounted] = useState();
@@ -72,7 +72,8 @@ export default function ReviewCard({ title, heading, country, code, href, servic
                     </IconButton>
                 }
                 title={heading}
-                subheader={heading == "Akala Moyo" ? country + " | Co-founder Statsmetrics" : country}
+                // subheader={heading == "Akala Moyo" ? country + " | Co-founder Statsmetrics" : country}
+                subheader={designation ? designation : country}
 
 
 
